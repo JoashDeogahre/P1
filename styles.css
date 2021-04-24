@@ -1,0 +1,90 @@
+body{
+  background-color: #e4d3cf;
+  display: inline-block;
+  position: relative;
+}
+img{
+  height: 50px;
+  width: 50px;
+  margin: 40px auto auto 40px;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  margin: 40px auto 40px 40px;
+  font-size: 50px;
+  color: #edffa9;
+}
+p{
+  font-family: 'Zen Dots', cursive;
+  line-height: 1.5;
+  color: #d8e3e7;
+  padding: 10px;
+  word-spacing: 2px;
+  padding-left: 40px;
+}
+.main{
+  position: absolute;
+  left: 150px;
+  height: 700px;
+  width: 1200px;
+}
+.first{
+  background-color: #51c4d3;
+  position: absolute;
+  left: 0;
+  height: 700px;
+  width: 400px;
+}
+.second{
+  background-color: #126e82;
+  position: absolute;
+  left: 400px;
+  height: 700px;
+  width: 400px;
+}
+.third{
+  background-color: #4b778d;
+  position: absolute;
+  left: 800px;
+  height: 700px;
+  width: 400px;
+}
+.btnone, .btntwo, .btnthree{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.btn {
+   background: #FCECDD;
+   background-image: -webkit-linear-gradient(top, #FCECDD, #FCECDD);
+   background-image: -moz-linear-gradient(top, #FCECDD, #FCECDD);
+   background-image: -ms-linear-gradient(top, #FCECDD, #FCECDD);
+   background-image: -o-linear-gradient(top, #FCECDD, #FCECDD);
+   background-image: -webkit-gradient(to bottom, #FCECDD, #FCECDD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #206A5D;
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: 400;
+   padding: 7px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #BEC7D5;
+   background-image: -webkit-linear-gradient(top, #BEC7D5, #CED2D7);
+   background-image: -moz-linear-gradient(top, #BEC7D5, #CED2D7);
+   background-image: -ms-linear-gradient(top, #BEC7D5, #CED2D7);
+   background-image: -o-linear-gradient(top, #BEC7D5, #CED2D7);
+   background-image: -webkit-gradient(to bottom, #BEC7D5, #CED2D7);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
